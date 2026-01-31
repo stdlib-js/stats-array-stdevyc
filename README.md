@@ -112,6 +112,11 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 To use in Observable,
 
 ```javascript
+stdevyc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-stdevyc@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-array-stdevyc/tags). For example,
+
+```javascript
 stdevyc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-stdevyc@v0.1.0-umd/browser.js' )
 ```
 
@@ -124,7 +129,7 @@ var stdevyc = require( 'path/to/vendor/umd/stats-array-stdevyc/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-stdevyc@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-stdevyc@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -189,7 +194,7 @@ var v = stdevyc( x, 0.0 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-stdevyc@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-stdevyc@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
